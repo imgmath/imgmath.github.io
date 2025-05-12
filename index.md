@@ -1,34 +1,30 @@
 ---
 layout: default
-title: Home
+title: Image Processing and Computer Vision Lab
 ---
 
-<!-- Hero section -->
 <div class="section">
   <h2>Welcome to {{ site.title }}</h2>
-  <p>We are a research group focused on developing cutting-edge image processing and video analysis techniques.</p>
+  <p>We are a research group at DIAT focused on developing cutting-edge image processing and computer vision techniques.</p>
 </div>
 
-<!-- Featured Research -->
+
 <div class="section section-alt">
-  <h2>Featured Research</h2>
+  <h2>Research Areas</h2>
   <div class="grid-container">
     <div class="grid-item">
       <h3>Image Processing</h3>
-      <p>Advanced algorithms for image enhancement and restoration.</p>
+      <p>Mathematical analysis and algorithm development of: <ul> <li>Noise Models</li> <li>Color Models</li>  <li>Image Enhancement</li>  <li>Image Segementation</li>  <li>Image Compression</li>  <li>Morphological Processing</li></ul> 
+      </p>
     </div>
     <div class="grid-item">
-      <h3>Video Analysis</h3>
-      <p>Techniques for motion detection and object tracking in videos.</p>
-    </div>
-    <div class="grid-item">
-      <h3>Computer Vision</h3>
-      <p>Machine learning approaches for visual recognition tasks.</p>
+      <h3>Video Analytics</h3>
+      <p>TFocused on: <ul> <li>Motion Detection</li> <li>Object Tracking</li> </ul></p>
     </div>
   </div>
 </div>
 
-<!-- Latest News -->
+<!--
 <div class="section">
   <h2>Latest News</h2>
   <div class="grid-container">
@@ -44,3 +40,4 @@ title: Home
     </div>
   </div>
 </div>
+-->

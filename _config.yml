@@ -5,9 +5,8 @@ domain: imgmath.github.io
 url: "https://imgmath.github.io"
 baseurl: ""
 
-title: Image Processing Lab
-subtitle: ImgMath Lab
-description: Image Processing and Video Analysis Lab
+title: ImgMath Lab
+description: Image Processing and Analysis Lab
 keywords: [Image Processing, Video Analysis, Computer Vision]
 
 author: ImgMath Lab
