@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   </head>
   <body>
     {% include header.html %}
@@ -13,15 +14,25 @@
     <section class="page-header">
       <h1 class="project-name">{{ page.title | default: site.title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
-      {% if site.buttons.github_hide != true %}
+      {% if site.show_github %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_download %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
       {% endif %}
     </section>
 
     <section class="main-content">
-      {{ content }}
-
+      <div class="content-inner">
+        <!-- For text-based content, wrap in a text container for readability -->
+        <div class="text-container">
+          {{ content }}
+        </div>
+      </div>
+      
       {% include footer.html %}
     </section>
+    
+    <script src="{{ '/assets/js/mobile-nav.js' | relative_url }}"></script>
   </body>
 </html>

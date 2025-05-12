@@ -3,8 +3,10 @@ theme: jekyll-theme-cayman
 # Site settings
 domain: imgmath.github.io
 url: "https://imgmath.github.io"
+baseurl: ""
 
-title: ImgMath Lab
+title: Image Processing Lab
+subtitle: ImgMath Lab
 description: Image Processing and Video Analysis Lab
 keywords: [Image Processing, Video Analysis, Computer Vision]
 
@@ -12,6 +14,9 @@ author: ImgMath Lab
 
 show_download: false
 show_github: true
+
+# Mobile settings
+mobile_nav_breakpoint: 768px
 
 # Build settings
 markdown_ext: md

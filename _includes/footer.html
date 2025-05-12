@@ -1,12 +1,22 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p>{{ site.description }}</p>
-      </div>
-      <div class="footer-col">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
-      </div>
+  <div class="footer-container">
+    <div class="footer-col">
+      <h4>{{ site.title }}</h4>
+      <p>{{ site.description }}</p>
+    </div>
+    <div class="footer-col">
+      <h4>Links</h4>
+      <a href="{{ site.baseurl }}/">Home</a><br>
+      <a href="{{ site.baseurl }}/projects">Projects</a><br>
+      <a href="{{ site.baseurl }}/publications">Publications</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>Email: contact@example.com<br>
+      Location: University Campus, Building 3</p>
+    </div>
+    <div class="footer-col">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
     </div>
   </div>
 </footer>
