@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Image Processing and Computer Vision Lab
+title: Image Processing and Analysis Group
+description: Department of Applied Mathematics
 ---
 
 <div class="section">
   <h2>Welcome to {{ site.title }}</h2>
-  <p>We are a research group at DIAT focused on developing cutting-edge image processing and computer vision techniques.</p>
+  <p>We are a research group focused on developing cutting-edge image processing and computer vision techniques.</p>
 </div>
 
 
@@ -19,7 +20,7 @@ title: Image Processing and Computer Vision Lab
     </div>
     <div class="grid-item">
       <h3>Video Analytics</h3>
-      <p>TFocused on: <ul> <li>Motion Detection</li> <li>Object Tracking</li> </ul></p>
+      <p>Focused on: <ul> <li>Motion Detection</li> <li>Object Tracking</li> </ul></p>
     </div>
   </div>
 </div>

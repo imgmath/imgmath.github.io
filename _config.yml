@@ -12,7 +12,7 @@ keywords: [Image Processing, Video Analysis, Computer Vision]
 author: ImgMath Lab
 
 show_download: false
-show_github: true
+show_github: false
 
 # Mobile settings
 mobile_nav_breakpoint: 768px
